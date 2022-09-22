@@ -9,6 +9,7 @@ cnxn = pyodbc.connect('Driver={ODBC Driver 13 for SQL Server};Trusted_connection
 cursor = cnxn.cursor()
 cursor.execute("exec get_Retarus_MissingStatus") 
 row = cursor.fetchone() 
+#Test
 jobStatList = []
 list_two = []
 status_list = []
